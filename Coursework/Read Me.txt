@@ -1,0 +1,45 @@
+INM427 NEURAL COMPUTING COURSEWORK
+-----------------------------------
+Ayliah Fani - 200044837
+
+
+FILES
+------
+Within this folder you will find:
+	* report.pdf
+	* nc_coursework.ipynb
+	* test.ipynb
+	* Data - folder containing datasets
+		* test.txt
+		* train.txt
+		* val.txt
+	* Models - folder containing pickle files of final models
+		* final_mlp.pickle
+		* final_svc.pickle
+	* Pickles
+
+
+DATA
+-----
+The Emotions for NLP dataset was used for this project. Acquired from Kaggle at https://www.kaggle.com/praveengovi/emotions-dataset-for-nlp
+
+
+RUNNING THE MODELS
+-------------------
+There is a single file (nc_coursework.ipynb) which contains preprocessing, both models used (MLP and SVM), evaluation, optimisation, and final predictions. 
+
+
+FOR TA’S -> For ease of testing and final model evaluation of pre-trained models, test.ipynb has been included. This shows the same testing methodologies seen in nc_coursework.ipynb.
+
+
+VERSIONS
+-----
+Python:	3.8.2
+sklearn:	0.24.1
+pandas:	1.2.0
+numpy:	1.19.2
+seaborn:	0.11.1
+scipy:	1.6.1
+matplotlib: 3.3.4
+nltk: 	3.5
+skorch:	0.9.0
